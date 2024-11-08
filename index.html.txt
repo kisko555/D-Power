@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Power Chiptuning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>D-Power Chiptuning</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Espace Client</h2>
+            <p>Connectez-vous pour accéder à votre espace client sécurisé.</p>
+            <button onclick="openLoginModal()">Connexion</button>
+        </section>
+        <section id="upload-form">
+            <h2>Formulaire d'ajout de fichiers</h2>
+            <form>
+                <label for="brand">Marque:</label>
+                <input type="text" id="brand" name="brand" required><br>
+
+                <label for="model">Modèle:</label>
+                <input type="text" id="model" name="model" required><br>
+
+                <label for="year">Année:</label>
+                <input type="number" id="year" name="year" required><br>
+
+                <label for="options">Options de modification:</label>
+                <select id="options" name="options" multiple>
+                    <option value="stage1">Stage 1</option>
+                    <option value="stage2">Stage 2</option>
+                    <option value="dpf-off">DPF Off</option>
+                    <option value="egr-off">EGR Off</option>
+                    <option value="lambda-off">Lambda Off</option>
+                </select><br>
+
+                <label for="file">Fichier ECU:</label>
+                <input type="file" id="file" name="file" required><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section id="graphs">
+            <h2>Graphiques de puissance estimée</h2>
+            <p>Comparaison des courbes de puissance avant et après modification.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
