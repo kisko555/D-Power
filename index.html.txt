@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>D-Power Chiptuning</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="D-Power Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Prix</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Bienvenue sur D-Power Chiptuning</h1>
+            <p>Reprogrammation moteur pour une performance maximale.</p>
+        </section>
+
+        <section class="services">
+            <h2>Nos Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Stage 1</h3>
+                    <p>Optimisation moteur pour une augmentation modérée de la puissance.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Stage 2</h3>
+                    <p>Performance avancée pour des amateurs de puissance.</p>
+                </div>
+                <div class="service-item">
+                    <h3>DPF/EGR OFF</h3>
+                    <p>Suppression de filtres pour améliorer l'efficacité.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 D-Power Chiptuning. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
